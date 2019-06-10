@@ -13,22 +13,26 @@
  
 
     </head>
-  <body>
+  <body data-spy="scroll" data-target="#navbar" data-offset="0">
+
+
     <!-- NAVIGATION -->
-        <ul class="nav justify-content-end bg-warning">
+    <nav id="navbar" class="navbar fixed-top justify-content-end">
+        <ul class="nav nav-pills">
             <li class="nav-item">
-              <a class="nav-link active text-dark" href="#about">About</a>
+              <a class="nav-link" href="#about">About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link text-dark" href="#skills">Skills</a>
+              <a class="nav-link" href="#skills">Skills</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link text-dark" href="#portfolio">Portfolio</a>
+              <a class="nav-link" href="#portfolio">Portfolio</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link text-dark" href="#contact">Contact</a>
+              <a class="nav-link" href="#contact">Contact</a>
             </li>
-          </ul>
+        </ul>
+        </nav>
     <!-- /NAVIGATION -->
 
     <!-- HEADER -->
@@ -40,21 +44,21 @@
     </div>   
     <!-- /HEADER -->
 
-    <!-- ABOUT -->
-<div id="about">
-    <div class="container">
-        <h2>About Me</h2>    
-    </br><p>I thought I wanted to be an artist. When I grew up, went to art school, and became an artist, I realized there is no money in it. I was a sound engineer for theater, concerts, and events, and I wanted to use the skills I learned in that field in my future career, so I began to look into studying computer science and programming. That quickly lead me to explore software bootcamps, and I landed on The Tech Academy.</p>
-        <p>A fun fact about me is that I'm terrible at coming up with content for portfolio sites. I know no matter what I write or do now, I will change 100% of this content before an employer ever sees it.</p>
-        <p>As an artist, I've been in the position of writing bios, and building portfolios, many times in the past. I will get content written, just like I will get a new background done, but I can either focus on doing that, or I can focus on coding the page. I've opted to build a great template that I will be happy with going forward, and is easy to make edits on when I finally settle on what I want the content to be.</p>
+    <!-- ABOUT --> 
+    <div id="about">
+        <div class="container">
+            <h2>About Me</h2>    
+        </br><p>I thought I wanted to be an artist. When I grew up, went to art school, and became an artist, I realized there is no money in it. I was a sound engineer for theater, concerts, and events, and I wanted to use the skills I learned in that field in my future career, so I began to look into studying computer science and programming. That quickly lead me to explore software bootcamps, and I landed on The Tech Academy.</p>
+            <p>A fun fact about me is that I'm terrible at coming up with content for portfolio sites. I know no matter what I write or do now, I will change 100% of this content before an employer ever sees it.</p>
+            <p>As an artist, I've been in the position of writing bios, and building portfolios, many times in the past. I will get content written, just like I will get a new background done, but I can either focus on doing that, or I can focus on coding the page. I've opted to build a great template that I will be happy with going forward, and is easy to make edits on when I finally settle on what I want the content to be.</p>
+        </div>
     </div>
-</div>
     <!-- /ABOUT -->
 
     <!-- SKILLS -->
 <div id="skills">
     <div class="container">
-        <h2>Skills</h2>
+        <h2 id="skills">Skills</h2>
                     <div class="row">
                             <div class="col">
                                 <div class="col-text">
@@ -148,7 +152,8 @@
     </div>
 </div>
     <!-- /CONTACT -->
-
+</div>
+</div>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>

@@ -1,6 +1,7 @@
 body {
     background-image: url("../images/bg2.jpg");
     font-size: 1.1rem;
+    position: relative;
 }
 
 h1, h2, h3 {
@@ -31,6 +32,22 @@ h6 {
 
 p {
     margin: 10px;
+}
+
+.navbar {
+    background-color: rgba(255, 191, 0, 0.7)
+}
+
+.nav-link {
+    color: #000000;
+}
+
+.nav-pills .nav-link.active, 
+.nav-pills .nav-link.active:hover,
+.nav-pills .nav-link.active:focus {
+    background-color: rgba(255, 222, 122, 1.0);
+    color: #000000;
+    font-weight: bold;
 }
 
 .container-fluid {
