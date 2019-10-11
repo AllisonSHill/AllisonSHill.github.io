@@ -82,10 +82,13 @@ p {
 }
 
 #headerText {
-    /*padding-top: 30%;
-    padding-left: 100px;*/
     margin-left: 100px;
     width: 50%;
+    height: 100vh;
+}
+
+.name {
+    padding-top: 50%;
 }
 
 .row {
