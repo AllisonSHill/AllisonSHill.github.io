@@ -100,16 +100,11 @@ p {
 
 .col {
     text-align: center;
-    border: 1px;
-    border-style: solid;
-    border-color: rgb(190, 190, 190);
-    border-radius: 3px;
-    margin: 10px;
-    padding: 10px;
+    border: none;
 }
 
-#teamCol {
-    border: none;
+#aboutCol {
+    text-align: left;
 }
 
 .picture {

@@ -2,8 +2,10 @@
   "ExpandedNodes": [
     "",
     "\\css",
+    "\\images",
+    "\\images\\original",
     "\\js"
   ],
-  "SelectedNode": "\\js\\pizzajavascript.js",
+  "SelectedNode": "\\css\\customStyles.css",
   "PreviewInSolutionExplorer": false
 }
