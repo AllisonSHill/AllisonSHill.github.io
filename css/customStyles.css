@@ -56,9 +56,28 @@ p {
 .nav-pills .nav-link.active, 
 .nav-pills .nav-link.active:hover,
 .nav-pills .nav-link.active:focus {
-    background-color: rgba(255, 222, 122, 1.0);
+    background-color: rgba(255, 222, 122, 1);
     color: #000000;
     font-weight: bold;
+}
+
+/***************************************Make this work*********************************/
+#dropdownToggle.dropdown.show {
+    background-color: rgb(255,222,122) !important;
+    color: black;
+    /*font-weight: bold;*/
+}
+
+.dropdown-menu {
+    margin-left: -67px;
+    padding-left: 15px;
+    padding-right: 10px;
+    width: 180px;
+    background-color: rgba(255,240,140,.7);
+}
+
+.subMenuText a {
+    color: rgb(0,50,100);
 }
 
 .container-fluid {
@@ -148,8 +167,9 @@ p {
 .contact-content {
     text-align: center;
     padding: 10px;
+    font-size: 1.1em;
 }
 
-.contact-content img {
-    padding: 10px;
-}
+    .contact-content a {
+        color: rgb(0,50,100);
+    }
