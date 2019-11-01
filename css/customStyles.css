@@ -173,3 +173,8 @@ p {
     .contact-content a {
         color: rgb(0,50,100);
     }
+
+#skillsIcon {
+    padding-bottom: 30px;
+    padding-top: 10px;
+}
