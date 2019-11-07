@@ -158,6 +158,12 @@ p {
     border-radius: 50%;
     margin-left: auto;
     margin-right: auto;
+    background-image: url(../images/meNoGlasses.jpg);
+    background-size: 100%;
+}
+
+#allisonbioPic:hover {
+    background-image: url(../images/meAlt.jpg);
 }
 
 #allisonbioPic img {
