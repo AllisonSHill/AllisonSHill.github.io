@@ -180,7 +180,7 @@ p {
 
     .navbar {
         font-size: .6em;
-        background-color: green;
+        background-color: violet;
     }
 
     .dropdown-menu {
@@ -197,7 +197,7 @@ p {
     #headContainer {
         height: 100vh;
         background-image: url("../images/view_from_massive.jpg");
-        background-size: contain;
+        background-size: 50%;
     }
 
     .name {
