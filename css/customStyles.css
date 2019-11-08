@@ -181,6 +181,7 @@ p {
 
     .navbar {
         font-size: .6em;
+        background-color: red;
     }
 
     .dropdown-menu {
