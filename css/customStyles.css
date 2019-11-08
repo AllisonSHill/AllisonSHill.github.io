@@ -185,32 +185,20 @@ p {
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
     h1 {
-        font-size: 50px;
+        font-size: 65px;
     }
     
     h3 {
-        font-size: 30px;
+        font-size: 28px;
     }
 
     .navbar {
         background-color: rgba(255, 191, 0, 0.7);
-        font-size: .9em;
-    }
-
-    .nav-pills .nav-link.active,
-    .nav-pills .nav-link.active:hover,
-    .nav-pills .nav-link.active:focus {
-        background-color: rgba(255, 222, 122, 1);
-        color: #000000;
-        font-weight: bold;
+        font-size: .6em;
     }
 
     .dropdown-menu {
-        margin-left: -67px;
-        padding-left: 15px;
-        padding-right: 10px;
-        width: 180px;
-        background-color: rgba(255,240,140,.7);
+        font-size: 1em;
     }
 
     #headerText {
@@ -222,7 +210,11 @@ p {
     .name {
         padding-top: 40vh;
     }
-}
+
+    #allisonbioPic {
+        width: 250px;
+        height: 250px;
+    }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
