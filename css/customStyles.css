@@ -7,30 +7,25 @@ body {
     position: relative;
 }
 
-h1, h3 {
-    text-shadow: 4px 4px 10px rgba(0, 0, 0, 1);
-}
-
-h2 {
-    text-shadow: 4px 2px 1px rgba(175, 175, 175, 0.7);
-}
-
 h4, h5, h6 {
     text-shadow: 2px 1px 1px rgba(197, 197, 197, 0.7)
 }
 
 h1 {
     color: papayawhip;
-    font-size: 90px;
+    font-size: 100px;
+    text-shadow: 5px 5px 10px rgba(0, 0, 0, 1);
 }
 
 h2 {
     text-align: center;
+    text-shadow: 4px 2px 1px rgba(175, 175, 175, 0.7);
 }
 
 h3 {
     color: white;
-    font-size: 35px;
+    font-size: 45px;
+    text-shadow: 5px 5px 8px rgba(0, 0, 0, 1);
 }
 
 h4 {
@@ -102,12 +97,12 @@ p {
 
 #headerText {
     margin-left: 100px;
-    width: 50%;
+    /*width: 50%;*/
     height: 100vh;
 }
 
 .name {
-    padding-top: 50%;
+    padding-top: 50vh;
 }
 
 .row {
@@ -183,4 +178,68 @@ p {
 #skillsIcon {
     padding-bottom: 30px;
     padding-top: 10px;
+}
+
+/***********************Start breakpoints****************/
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    h1 {
+        font-size: 50px;
+    }
+    
+    h3 {
+        font-size: 30px;
+    }
+
+    .navbar {
+        background-color: rgba(255, 191, 0, 0.7);
+        font-size: .9em;
+    }
+
+    .nav-pills .nav-link.active,
+    .nav-pills .nav-link.active:hover,
+    .nav-pills .nav-link.active:focus {
+        background-color: rgba(255, 222, 122, 1);
+        color: #000000;
+        font-weight: bold;
+    }
+
+    .dropdown-menu {
+        margin-left: -67px;
+        padding-left: 15px;
+        padding-right: 10px;
+        width: 180px;
+        background-color: rgba(255,240,140,.7);
+    }
+
+    #headerText {
+        margin-left: 10px;
+        width: 100%;
+        height: 100vh;
+    }
+
+    .name {
+        padding-top: 40vh;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    ...
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    ...
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    ...
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    ...
 }
