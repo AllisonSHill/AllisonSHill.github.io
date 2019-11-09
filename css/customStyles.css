@@ -197,7 +197,7 @@ p {
     #headContainer {
         height: 100vh;
         background-image: url("../images/view_from_massive.jpg");
-        background-size: cover;
+        background-size: 100vmin;
     }
 
     .name {
