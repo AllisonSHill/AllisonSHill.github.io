@@ -54,11 +54,14 @@ p {
     font-weight: bold;
 }
 
-/***************************************Make this work*********************************/
-#dropdownToggle.dropdown.show {
-    background-color: rgb(255,222,122) !important;
-    color: black;
-    /*font-weight: bold;*/
+.nav-pills .show>.nav-link {
+    background-color: rgb(255,222,122);
+    color: #000000;
+    font-weight: bold;
+}
+
+.nav-pills {
+    border-radius: .25em;
 }
 
 .dropdown-menu {
@@ -66,6 +69,10 @@ p {
     padding-left: 15px;
     padding-right: 10px;
     background-color: rgba(255,240,140,.7);
+}
+
+.dropdown-menu.show {
+    font-weight: normal;
 }
 
 .subMenuText a {
